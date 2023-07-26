@@ -2,7 +2,7 @@ import 'dart:io';
 
 void main() {
   print("Enter id: ");
-  /* try/exept will catch the errors if there, in this case it is fromal error */
+  /* try/exept will catch the errors if there, in this case it is fromat error */
   try {
     int userInput = int.parse(stdin.readLineSync()!);
     IdCardFunc(userInput);
