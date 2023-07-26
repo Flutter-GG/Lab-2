@@ -5,14 +5,10 @@ import 'dart:math';
 import 'dart:io';
 
 void main() {
-  print(day5());
+  print(day4());
 
 }
 
-day5(){
-  print("ffff");
-  return ;
-}
 void day4(){
   String name1 = "Mohammed";
   const String cardNumber1 = "1124548952";
