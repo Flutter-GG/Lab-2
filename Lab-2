@@ -1,0 +1,20 @@
+import 'dart:io';
+import 'dart:math';
+
+void main() {
+  var myName = "Lama";
+  const String id = "112233";
+  // user input
+  print("Welcom $myName \n Enter Your Id");
+  String? inputId = stdin.readLineSync();
+
+  checkID(inputId, id);
+}
+
+void checkID(String? inputId, String id) {
+  if (inputId == id) {
+    print("Your ID is correct");
+  } else {
+    print("Your ID not correct");
+  }
+}
