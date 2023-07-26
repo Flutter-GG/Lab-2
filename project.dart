@@ -14,7 +14,7 @@ void main() {
 IdCardFunc(int userInput) {
   var myName = 'Mohammed Alsahli';
   const IDcard = 1102430251;
-/* check if the input of the user is equal to the ID Card*/
+/* check if the input of the user is equal to the ID Card */
   if (userInput == IDcard) {
     print('they are the same');
   } else {
