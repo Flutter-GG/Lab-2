@@ -12,12 +12,12 @@ void main() {
 }
 
 IdCardFunc(int userInput) {
-  var myName = 'Mohammed Alsahli';
-  const IDcard = 1102430251;
+  var name = 'Mohammed Alsahli';
+  const cardNumber = 1102430251;
 /* check if the input of the user is equal to the ID Card */
-  if (userInput == IDcard) {
-    print('they are the same');
+  if (userInput == cardNumber) {
+    print('they are the same, welcom $name');
   } else {
-    print('they are not the same, your input: $userInput, the id: $IDcard');
+    print('they are not the same, your input: $userInput');
   }
 }
