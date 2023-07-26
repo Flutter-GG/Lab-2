@@ -18,6 +18,6 @@ IdCardFunc(int userInput) {
   if (userInput == cardNumber) {
     print('they are the same, welcom $name.');
   } else {
-    print('they are not the same, your input: $userInput.');
+    print('they are not the same, your input is: $userInput.');
   }
 }
