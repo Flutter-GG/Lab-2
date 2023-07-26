@@ -1,17 +1,19 @@
 import 'dart:io';
 
 void main() {
-  var name = "Wejdan";
-  const id = 33773377;
-  print("Enter your id number:");
-  int? userid = int.parse(stdin.readLineSync()!);
-  checkId(userid, name);
-}
+  const cardNumber = 33773377;
+  print("Enter your Card Number:");
+  int? usercardNumber = int.parse(stdin.readLineSync()!);
+  print("Enter your Name:");
+  String? name = stdin.readLineSync();
 
-void checkId(int userid, String name) {
-  if (userid == 33773377) {
+  print("Hmm let me check......");
+
+  if (usercardNumber == 33773377) {
     print("$name, right!");
   } else {
     print("$name, hardluck!");
   }
+
+  print("End");
 }
