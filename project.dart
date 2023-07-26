@@ -7,7 +7,7 @@ void main() {
     int userInput = int.parse(stdin.readLineSync()!);
     IdCardFunc(userInput);
   } on FormatException {
-    print('not a number');
+    print('your input is not a number.');
   }
 }
 
