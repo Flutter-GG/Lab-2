@@ -1,0 +1,25 @@
+import 'dart:io';
+
+void main(List<String> arguments) {
+  var myName = "ruba saad";
+  const myCard = 879466521876423;
+  print(myName);
+  print(myCard);
+
+  print("you're name is: ");
+  String? name = stdin.readLineSync();
+  print("Hi, $name! \nWelcome");
+
+
+  print("please, enter you're card number ..");
+  int? userCard = int.parse(stdin.readLineSync()!);
+  print("the card number is :$userCard");
+
+  if (myCard==userCard) {
+   print("the cards are a match"); 
+  }else{
+print("the cards do not match!!");
+
+
+  }
+}
