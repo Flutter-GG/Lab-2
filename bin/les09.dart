@@ -9,7 +9,7 @@ void main() {
 
   print("Hmm let me check......");
 
-  if (usercardNumber == 33773377) {
+  if (usercardNumber == cardNumber) {
     print("$name, right!");
   } else {
     print("$name, hardluck!");
